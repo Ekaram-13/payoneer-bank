@@ -14,10 +14,9 @@ body{
     margin:  0 20px;
     color: #fff;
     padding: 20px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
-    margin-bottom: 15px;
-    margin-top: 25px;
-
 }
 .deposit{
     background: -webkit-linear-gradient(left, #7579ff, #b224ef);
@@ -27,4 +26,11 @@ body{
 }
 .balance{
     background: -webkit-linear-gradient(left, #ffa500,#ff4500);
+}
+
+
+@media all and (max-width:465px){
+    .status{
+
+    }
 }
